@@ -10,7 +10,8 @@ Project-URL: Bug Tracker, https://github.com/i-am-tushaar/End-to-End-Deep-Learni
 # Kidney-Disease-Classification-MLflow-DVC
 
 
-## Workflows
+## Worklflows 
+
 
 1. Update config.yaml
 2. Update secrets.yaml [Optional]
@@ -74,20 +75,20 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_URI=https://dagshub.com/tushar.dataexpert/End-to-End-Deep-Learning-Project-Kidney-Disease-Classification.mlflow \
+MLFLOW_TRACKING_USERNAME=tushar.dataexpert \
+MLFLOW_TRACKING_PASSWORD=115dc4f0047a94bcbdbf33003d754a96332b9fd5 \
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/Kidney-Disease-Classification-MLflow-DVC.mlflow
+export/set MLFLOW_TRACKING_URI=https://dagshub.com/tushar.dataexpert/End-to-End-Deep-Learning-Project-Kidney-Disease-Classification.mlflow
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
+export/set MLFLOW_TRACKING_USERNAME=tushar.dataexpert 
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9eac5b10041d5c8edbcef0
+export/set MLFLOW_TRACKING_PASSWORD=115dc4f0047a94bcbdbf33003d754a96332b9fd5
 
 ```
 
