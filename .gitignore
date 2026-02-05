@@ -10,6 +10,7 @@ __pycache__/
 
 # Ignore all MLflow runs and artifacts
 mlruns/
+mlruns/0/
 
 # Distribution / packaging
 .Python
